@@ -1,0 +1,12 @@
+.section-team {
+  background-color: #f4f4fd;
+}
+
+.team-item {
+  background-color: #fff;
+}
+
+.team-subtitle,
+.team-text {
+  text-align: center;
+}
