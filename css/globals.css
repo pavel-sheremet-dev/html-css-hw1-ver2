@@ -8,6 +8,18 @@ body {
 ul,
 ol {
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 a {
@@ -16,7 +28,16 @@ a {
 }
 
 button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
   cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .logo {
@@ -31,6 +52,29 @@ button {
 
 .logo-accent {
   color: #4d5ae5;
+}
+
+.section {
+  padding: 120px 0;
+}
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
 }
 
 .section-title {
