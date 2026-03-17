@@ -2,8 +2,20 @@
   background-color: #f4f4fd;
 }
 
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
 .team-item {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
+
   background-color: #fff;
+}
+
+.team-content {
+  padding: 32px 16px;
 }
 
 .team-subtitle,
