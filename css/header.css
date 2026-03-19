@@ -11,17 +11,18 @@
 }
 
 .header-logo {
-  margin-right: 56px;
+  margin-right: 76px;
   padding: 24px 0;
 }
 
+.nav-list,
 .contacts-list {
   gap: 40px;
 }
 
 .nav-link {
   display: block;
-  padding: 24px 20px;
+  padding: 24px 0;
 
   font-weight: 500;
   line-height: 1.5;
