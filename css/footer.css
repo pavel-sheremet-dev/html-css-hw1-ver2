@@ -3,8 +3,14 @@
   background-color: #2e2f42;
 }
 
-.footer-content {
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-content-wrapper {
   max-width: 264px;
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -17,4 +23,22 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.footer-title {
+  margin-bottom: 16px;
+
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.footer-social-list {
+  gap: 16px;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
 }

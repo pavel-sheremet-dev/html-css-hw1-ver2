@@ -12,6 +12,10 @@
   border-radius: 0 0 4px 4px;
 
   background-color: #fff;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-content {
@@ -21,4 +25,8 @@
 .team-subtitle,
 .team-text {
   text-align: center;
+}
+
+.team-text {
+  margin-bottom: 8px;
 }
